@@ -12,7 +12,7 @@ stages {
 
     stage('Build Docker Image') {
     steps {
-      sh 'docker.sh'
+      sh './docker.sh'
 
     }
   }
