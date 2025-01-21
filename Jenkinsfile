@@ -10,7 +10,7 @@ stages {
     }
   }
 
-    stage('Build Docker Image') {
+    stage('Build Docker Image and Push to Docker Hub and Create container') {
     steps {
       sh './docker.sh'
 
